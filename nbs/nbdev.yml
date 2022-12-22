@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev-hello-alois"
+  site-url: "https://aloiswirth.github.io/nbdev-hello-alois"
+  description: "first test with new nbdev version"
+  repo-branch: main
+  repo-url: "https://github.com/aloiswirth/nbdev-hello-alois"
