@@ -8,16 +8,20 @@ documentation.
 
 ## Install
 
+If this will ever be published as a package then you will have to
+install it via:
+
 ``` sh
 pip install nbdev_hello_alois
 ```
 
 ## How to use
 
-Fill me in please! Don’t forget code examples:
+There are not so much use cases yet. This is a mere test for usage
 
 ``` python
-1+1
+import sys
+print(sys.version)
 ```
 
-    2
+    3.10.6 (main, Nov  2 2022, 18:53:38) [GCC 11.3.0]
