@@ -17,4 +17,6 @@ d = { 'settings': { 'branch': 'main',
                                         'nbdev_hello_alois.deck.Deck.__init__': ('deck.html#deck.__init__', 'nbdev_hello_alois/deck.py'),
                                         'nbdev_hello_alois.deck.Deck.__len__': ('deck.html#deck.__len__', 'nbdev_hello_alois/deck.py'),
                                         'nbdev_hello_alois.deck.Deck.__str__': ('deck.html#deck.__str__', 'nbdev_hello_alois/deck.py'),
-                                        'nbdev_hello_alois.deck.Deck.remove': ('deck.html#deck.remove', 'nbdev_hello_alois/deck.py')}}}
+                                        'nbdev_hello_alois.deck.Deck.pop': ('deck.html#deck.pop', 'nbdev_hello_alois/deck.py'),
+                                        'nbdev_hello_alois.deck.Deck.remove': ('deck.html#deck.remove', 'nbdev_hello_alois/deck.py'),
+                                        'nbdev_hello_alois.deck.draw_n': ('deck.html#draw_n', 'nbdev_hello_alois/deck.py')}}}
