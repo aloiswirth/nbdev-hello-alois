@@ -35,12 +35,3 @@ def draw_n(n:int, # number of cards to draw
     d.shuffle()
     if replace: return [d.cards[random.choice(range(len(d.cards)))] for _ in range(n)]
     else: return d.cards[:n]
-
-# %% ../nbs/01_deck.ipynb 22
-def draw_n(n:int, # number of cards to draw
-           replace:bool=True): # whether or not draw with replacement
-    "Draw `n` cards, with replacement iif `replace`"
-    d = Deck()
-    d.shuffle()
-    if replace: return [d.cards[random.choice(range(len(d.cards)))] for _ in range(n)]
-    else: return d.cards[:n]
