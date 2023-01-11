@@ -4,3 +4,4 @@ website:
       - index.ipynb
       - 00_card.ipynb
       - 01_deck.ipynb
+      - 02_quick_test.ipynb
