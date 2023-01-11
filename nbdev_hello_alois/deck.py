@@ -20,7 +20,17 @@ class Deck:
         return card in self.cards
     __repr__ = __str__
 
-# %% ../nbs/01_deck.ipynb 18
+# %% ../nbs/01_deck.ipynb 12
+suits
+
+# %% ../nbs/01_deck.ipynb 15
+@patch
+def pop(self:Deck, idx:int=-1): # The index of the card to remove, defaulting to -1
+    "Remove one `card` from the deck"
+    return self.cards.pop(idx)
+
+
+# %% ../nbs/01_deck.ipynb 19
 @patch
 def remove(self:Deck,
            card:Card): # Card to remove
