@@ -3,32 +3,32 @@
 # %% auto 0
 __all__ = ['carlist', 'student']
 
-# %% ../nbs/40_pickle_training.ipynb 2
+# %% ../nbs/40_pickle_training.ipynb 3
 import pickle
 
-# %% ../nbs/40_pickle_training.ipynb 3
+# %% ../nbs/40_pickle_training.ipynb 4
 carlist =['Honda', 'BMW', 'Mercedes', 'VW']
 
-# %% ../nbs/40_pickle_training.ipynb 4
+# %% ../nbs/40_pickle_training.ipynb 5
 with open('autolist.pkl', 'wb') as autopickle:
     pickle.dump(carlist, autopickle)
 
 
-# %% ../nbs/40_pickle_training.ipynb 5
+# %% ../nbs/40_pickle_training.ipynb 6
 with open('autolist.pkl', 'rb') as car_unpickle:
     mycar = pickle.load(car_unpickle)
 
 mycar
 
-# %% ../nbs/40_pickle_training.ipynb 6
+# %% ../nbs/40_pickle_training.ipynb 7
 student = {1: 'Hans', 2: 'Sofie', 3: 'Klaus'}
 student
 
-# %% ../nbs/40_pickle_training.ipynb 7
+# %% ../nbs/40_pickle_training.ipynb 8
 with open('student', 'wb') as studentpkl:
     pickle._dump(student, studentpkl)
 
-# %% ../nbs/40_pickle_training.ipynb 8
+# %% ../nbs/40_pickle_training.ipynb 9
 with open('student', 'rb') as student_unpickle:
     up_students = pickle._load(student_unpickle)
 
