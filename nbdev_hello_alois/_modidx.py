@@ -19,4 +19,5 @@ d = { 'settings': { 'branch': 'main',
                                         'nbdev_hello_alois.deck.Deck.__str__': ('deck.html#deck.__str__', 'nbdev_hello_alois/deck.py'),
                                         'nbdev_hello_alois.deck.Deck.pop': ('deck.html#deck.pop', 'nbdev_hello_alois/deck.py'),
                                         'nbdev_hello_alois.deck.Deck.remove': ('deck.html#deck.remove', 'nbdev_hello_alois/deck.py')},
-            'nbdev_hello_alois.quick_test': {}}}
+            'nbdev_hello_alois.quick_test': {},
+            'nbdev_hello_alois.timemanipulate': {}}}
